@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{8c25199a-5436-4bc1-9adb-dc17e018d917}">
+		<property name="assetPath">
+			<value>musicGameplay-calm-v4.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>107.85599999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{468a797f-7508-43ba-8dfb-7fe1b579da02}</destination>
+		</relationship>
+	</object>
+</objects>
