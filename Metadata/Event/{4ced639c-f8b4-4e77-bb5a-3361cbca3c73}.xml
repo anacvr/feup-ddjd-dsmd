@@ -34,6 +34,9 @@
 		<relationship name="timeline">
 			<destination>{2d410cfe-9287-4c0b-8034-fce4f8a9ffd1}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{67f4fb4a-8127-4e77-97f1-52ea5b68aca3}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{dfb033f5-df81-4130-89fc-70a86abb6512}">
 		<relationship name="masterBus">
@@ -148,9 +151,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{fe5ddc7e-52f4-4531-b68e-cd3688c34954}" />
 	<object class="SingleSound" id="{4f0dc1aa-845d-4d1c-aaae-cf3eeac1d11f}">
-		<property name="start">
-			<value>60.048000000000002</value>
-		</property>
 		<property name="length">
 			<value>112.952</value>
 		</property>
@@ -205,6 +205,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{95195e9a-41d8-48c4-b31a-2b6c80be16ab}">
+		<property name="start">
+			<value>112.952</value>
+		</property>
 		<property name="length">
 			<value>60.048000000000002</value>
 		</property>
@@ -260,7 +263,7 @@
 	</object>
 	<object class="TempoMarker" id="{25ee6e8a-164a-4952-a1df-03058d134e98}">
 		<property name="position">
-			<value>60.048000000000002</value>
+			<value>0</value>
 		</property>
 		<property name="tempo">
 			<value>55</value>
@@ -274,7 +277,7 @@
 	</object>
 	<object class="TempoMarker" id="{ca334ce0-a557-41a8-840f-b05583a3d28b}">
 		<property name="position">
-			<value>0</value>
+			<value>112.952</value>
 		</property>
 		<property name="tempo">
 			<value>128</value>
@@ -288,7 +291,7 @@
 	</object>
 	<object class="LoopRegion" id="{b95ebeb0-44e7-41d4-9152-0815ae6ace1d}">
 		<property name="position">
-			<value>0</value>
+			<value>112.952</value>
 		</property>
 		<property name="length">
 			<value>60.048000000000002</value>
@@ -305,7 +308,7 @@
 	</object>
 	<object class="LoopRegion" id="{755c53f6-f525-4f52-8df3-326a970c4b47}">
 		<property name="position">
-			<value>60.048000000000002</value>
+			<value>0</value>
 		</property>
 		<property name="length">
 			<value>112.952</value>
@@ -322,7 +325,7 @@
 	</object>
 	<object class="TransitionRegion" id="{a0e0cd45-828a-45d8-8ca7-508492f464b4}">
 		<property name="position">
-			<value>0</value>
+			<value>112.952</value>
 		</property>
 		<property name="length">
 			<value>60.048000000000002</value>
@@ -348,7 +351,7 @@
 	</object>
 	<object class="TransitionRegion" id="{9bb5a374-e595-41bf-9b18-e32f96b0ec96}">
 		<property name="position">
-			<value>60.048000000000002</value>
+			<value>0</value>
 		</property>
 		<property name="length">
 			<value>112.952</value>
