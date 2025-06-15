@@ -65,11 +65,7 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{ffbdded8-15e2-4d12-9d07-7129f10b8dca}" />
 	<object class="MarkerTrack" id="{3d66353f-bc71-4d25-9201-42a109fffd4f}" />
-	<object class="Timeline" id="{d14d174d-1f29-485d-86c5-70c87844681c}">
-		<property name="isProxyEnabled">
-			<value>false</value>
-		</property>
-	</object>
+	<object class="Timeline" id="{d14d174d-1f29-485d-86c5-70c87844681c}" />
 	<object class="ParameterProxy" id="{f57a84c2-ebfe-4b25-899d-36a88a7ad04c}">
 		<relationship name="modules">
 			<destination>{1431476d-138e-4be9-a424-16c798389d02}</destination>
