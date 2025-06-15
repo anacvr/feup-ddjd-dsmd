@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{59fffcf5-04b4-432a-89eb-1a3c26ed2506}">
+		<property name="assetPath">
+			<value>bert-hurt-3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.29302083333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{468a797f-7508-43ba-8dfb-7fe1b579da02}</destination>
+		</relationship>
+	</object>
+</objects>

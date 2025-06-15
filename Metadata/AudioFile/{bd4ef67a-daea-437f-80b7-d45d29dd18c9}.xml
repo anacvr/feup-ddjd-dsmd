@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{bd4ef67a-daea-437f-80b7-d45d29dd18c9}">
+		<property name="assetPath">
+			<value>alice-hurt-v2-4.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.45022916666666668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{468a797f-7508-43ba-8dfb-7fe1b579da02}</destination>
+		</relationship>
+	</object>
+</objects>
