@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{e58f94cc-2c22-431a-aaa4-7e27f7c8dc78}">
+		<property name="assetPath">
+			<value>frog-002.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.9161666666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{468a797f-7508-43ba-8dfb-7fe1b579da02}</destination>
+		</relationship>
+	</object>
+</objects>
