@@ -5,7 +5,7 @@
 			<value>Menu Music</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7886132b-072a-4dcf-a824-29e514615593}</destination>
@@ -28,6 +28,9 @@
 		<relationship name="timeline">
 			<destination>{15101203-4849-4b57-8366-7931731d64b1}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{67f4fb4a-8127-4e77-97f1-52ea5b68aca3}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{71d8b293-f8ff-432d-b010-936c45c238b4}">
 		<relationship name="masterBus">
@@ -35,6 +38,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{a16a2f44-7faa-4476-88e2-7317f5b1122e}">
+		<relationship name="modules">
+			<destination>{3e29cdaf-62b3-4f1a-bc06-ffdd7e3a8529}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{a26c28a6-b6bd-4c77-bf7a-3df950a3b6af}</destination>
 		</relationship>
@@ -53,9 +59,9 @@
 	<object class="EventAutomatableProperties" id="{9c1c7909-1b0c-483a-ba9b-8e497061c9d4}" />
 	<object class="MarkerTrack" id="{caabacc9-5c2c-43a2-b2ce-1e6dbeaca4a6}" />
 	<object class="Timeline" id="{15101203-4849-4b57-8366-7931731d64b1}">
-		<property name="isProxyEnabled">
-			<value>false</value>
-		</property>
+		<relationship name="modules">
+			<destination>{3e29cdaf-62b3-4f1a-bc06-ffdd7e3a8529}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{a26c28a6-b6bd-4c77-bf7a-3df950a3b6af}">
 		<relationship name="effectChain">
@@ -66,6 +72,14 @@
 		</relationship>
 		<relationship name="mixer">
 			<destination>{71d8b293-f8ff-432d-b010-936c45c238b4}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{3e29cdaf-62b3-4f1a-bc06-ffdd7e3a8529}">
+		<property name="length">
+			<value>60.644739229024943</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{dbdb0e63-2cb0-4ba9-8006-97f78fa408f7}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{b8a95491-53d6-4d0d-b992-c63c8e814d05}">
